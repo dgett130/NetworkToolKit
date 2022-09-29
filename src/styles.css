@@ -1,1 +1,95 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*
+  Blu: #4E95F3
+  Text: #292940
+
+*/
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.header {
+  position: sticky;
+  position: -webkit-sticky;
+  margin: 40px 0;
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+}
+
+.header-logo {
+  display: block;
+  margin-right: 15px;
+}
+
+.header-title {
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+}
+
+.header-menu {
+  margin-left: auto;
+  justify-self: flex-end;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.title {
+  color: #292940;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -.019em;
+  padding: 13px 0 7px 10px;
+  height: 50px;
+  display: inline-block;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  font-family: Inter,system-ui,Helvetica Neue,Helvetica,Arial,SansSerif;
+}
+
+.btn-menu {
+  box-sizing: border-box;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+  color: #292940;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+
+  padding: 0.25em 0.75em;
+  min-width: 10ch;
+  min-height: 44px;
+
+  text-align: center;
+  line-height: 1.1;
+  transition: 260ms all ease-in-out;
+}
+
+.btn-menu:hover, .btn-menu:active {
+  background-color: #4E95F3;
+  color: #222222;
+}
+
+.outer-container {
+  margin: 20px 70px;
+}
+
+.h-20 {
+  height: 20%;
+}
+
+.h-15 {
+  height: 15%;
+}
