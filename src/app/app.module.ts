@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeaderComponent } from './common/header/header.component';
 import { MenuComponent } from './common/menu/menu.component';
+import { WidgetComponent } from './common/widget/widget.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     HeaderComponent,
-    MenuComponent
+    MenuComponent,
+    WidgetComponent
   ],
   imports: [
     BrowserModule,
