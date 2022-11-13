@@ -1,4 +1,6 @@
 <div class="outer-container">
   <div> Dashboard! </div>
-  <app-widget></app-widget>
+  <ng-container *ngFor="let widget of widgetArr">
+    <app-widget [widgetName]="widget"></app-widget>
+  </ng-container>
 </div>

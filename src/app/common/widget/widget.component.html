@@ -1,8 +1,9 @@
 <div class="widget-container">
   <div class="widget-header">
-    <span class="widget-title"> Widget di prova </span>
+    <span class="widget-title"> {{widgetName}} </span>
   </div>
   <div class="widget-body">
-    <app-saving-widget></app-saving-widget>
+        <app-saving-widget *ngIf="widgetName == CONSTANTS.SAVING_WIDGET_NAME"></app-saving-widget>
+        <app-in-out-widget *ngIf="widgetName == CONSTANTS.INOUT_WIDGET_NAME"></app-in-out-widget>
   </div>
 </div>
